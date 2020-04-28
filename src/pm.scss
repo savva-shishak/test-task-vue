@@ -1,0 +1,26 @@
+@for $size from 1 to 6 {
+    .p-#{$size} {
+        padding: $size * 5px;       
+    }
+
+    .pt-#{$size} {
+        padding-top: $size * 5px;       
+    }
+
+    .pb-#{$size} {
+        padding-bottom: $size * 5px;       
+    }
+
+    .pr-#{$size} {
+        padding-right: $size * 5px;       
+    }
+
+    .pl-#{$size} {
+        padding-left: $size * 5px;       
+    }
+
+    .pv-#{$size} {
+        padding-top: $size * 5px; 
+        padding-bottom: $size * 5px; 
+    }
+}
